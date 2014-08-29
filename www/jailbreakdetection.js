@@ -6,7 +6,7 @@ var JailbreakDetection = function () {
 };
 
 JailbreakDetection.prototype.isJailbroken = function (successCallback, failureCallback) {
-    exec(successCallback, failureCallback, "isJailbroken", []);
+    exec(successCallback, failureCallback, "JailbreakDetection", "isJailbroken", []);
 };
 
 module.exports = new JailbreakDetection();

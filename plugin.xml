@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="uk.co.ilee.jailbreakdetection" version="0.1.0">
+    <name>Jailbreak Detection</name>
+    <author>Lee Crossley (http://ilee.co.uk/)</author>
+    <description>Cordova / PhoneGap Plugin for detecting if the device running the app is jailbroken.</description>
+    <keywords>cordova, jailbreak, jailbroken, cydia, detection, detector, root, rooted</keywords>
+    <license>MIT</license>
+    <engines>
+        <engine name="cordova" version=">=3.0.0" />
+    </engines>
+    <js-module src="www/jailbreakdetection.js" name="JailbreakDetection">
+        <clobbers target="jailbreakdetection" />
+    </js-module>
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="JailbreakDetection">
+                <param name="ios-package" value="JailbreakDetection" />
+                <param name="onload" value="true" />
+            </feature>
+        </config-file>
+        <header-file src="src/ios/JailbreakDetection.h" />
+        <source-file src="src/ios/JailbreakDetection.m" />
+    </platform>
+</plugin>

@@ -1,4 +1,4 @@
-## Native Transitions Plugin for Apache Cordova
+## Jailbreak Detection Plugin for Apache Cordova
 
 Use this plugin to add an extra layer of security for your app, by detecting if the device running the app is jailbroken.
 

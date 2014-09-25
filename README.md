@@ -16,6 +16,16 @@ cordova plugin add https://github.com/leecrossley/cordova-plugin-jailbreak-detec
 
 You **do not** need to reference any JavaScript, the Cordova plugin architecture will add a `jailbreakdetection` object to your root automatically when you build.
 
+### PhoneGap build
+
+Add the following to your `config.xml` to use version 0.1.0 (you can also omit the version attribute to always use the latest version available on PhoneGap build):
+
+```
+<gap:plugin name="uk.co.ilee.jailbreakdetection" version="0.1.0" />
+```
+
+For more information, see the [PhoneGap build website](https://build.phonegap.com/plugins/1019).
+
 ## Usage
 
 ### isJailbroken

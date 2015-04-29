@@ -1,0 +1,39 @@
+{
+  "name": "cordova-plugin-jailbreak-detection",
+  "version": "0.1.0",
+  "author": "Lee Crossley <leee@hotmail.co.uk> (http://ilee.co.uk/)",
+  "description": "Cordova / PhoneGap Plugin for detecting if the device running the app is jailbroken.",
+  "cordova": {
+    "id": "cordova-plugin-jailbreak-detection",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leecrossley/cordova-plugin-jailbreak-detection.git"
+  },
+  "keywords": [
+    "cordova",
+    "jailbreak",
+    "jailbroken",
+    "cydia",
+    "detection",
+    "detector",
+    "root",
+    "rooted",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leecrossley/cordova-plugin-jailbreak-detection/issues"
+  },
+  "homepage": "https://github.com/leecrossley/cordova-plugin-jailbreak-detection#readme"
+}

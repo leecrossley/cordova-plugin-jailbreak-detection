@@ -1,4 +1,4 @@
-## Jailbreak Detection Plugin for Apache Cordova
+## Cordova Jailbreak Detection Plugin [![npm version](https://badge.fury.io/js/cordova-plugin-jailbreak-detection.svg)](http://badge.fury.io/js/cordova-plugin-jailbreak-detection)
 
 Use this plugin to add an extra layer of security for your app, by detecting if the device running the app is jailbroken.
 
